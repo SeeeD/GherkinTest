@@ -11,4 +11,8 @@ describe('workspace-project App', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Welcome to gherkin-test!');
   });
+
+  it('should fail this test', () => {
+    expect(false).toBe(true);
+  });
 });
